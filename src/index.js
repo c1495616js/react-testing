@@ -1,12 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+// import App from './App';
+import ErrorBoundary from './pages/react-error-boundary'
 import reportWebVitals from './reportWebVitals';
-
+// import LifeCycle from './pages/life-cycle'
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    {/* <App /> */}
+    <ErrorBoundary />
+    {/* <LifeCycle /> */}
+    {/* <LifeCycle hi="hi" /> */}
   </React.StrictMode>,
   document.getElementById('root')
 );
